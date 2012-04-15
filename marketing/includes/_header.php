@@ -19,6 +19,7 @@
 	<link rel="icon" type="image/ico" href="favicon.ico">
   
 	<!-- Included CSS Files -->
+	<link rel="stylesheet" href="../stylesheets/normalize.css">
 	<link rel="stylesheet" href="../stylesheets/globals.css">
 	<link rel="stylesheet" href="../stylesheets/typography.css">
 	<link rel="stylesheet" href="../stylesheets/grid.css">
