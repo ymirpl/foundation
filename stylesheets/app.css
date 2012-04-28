@@ -14,6 +14,14 @@
 ----------------------------------------- */
 
 
+.all-transitions {transition: .2s all ease; width: 90%; padding: 5%;}
+
+.left-canvas {margin-left: -100%; float: left;}
+.center-canvas {margin-left: 0; float: left;}
+.right-canvas {margin-right: -200%; float: left;}
+
+
+
 
 /* -----------------------------------------
    Page Name 1
