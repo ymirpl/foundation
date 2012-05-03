@@ -16,15 +16,19 @@
 
 .all-transitions {transition: .2s all ease; width: 90%; padding: 5%;}
 
-.left-canvas {margin-left: -100%; float: left;}
+/*.left-canvas {margin-left: -100%; float: left;}
 .center-canvas {margin-left: 0; float: left;}
-.right-canvas {margin-right: -200%; float: left;}
+.right-canvas {margin-right: -200%; float: left;}*/
+
+.left-canvas {margin-left: -15%; }
+.center-canvas {margin-left: 0;}
+.right-canvas {margin-right: -37%;}
 
 #oneTransition a:hover {-webkit-transition: all 1s ease-in-out;
 	-moz-transition: all 1s ease-in-out;
 	-o-transition: all 1s ease-in-out;
 	-ms-transition: all 1s ease-in-out;
-	transition: all 1s ease-in-out; box-shadow: 5px 5px 5px #aaa; }
+	transition: all 1s ease-in-out; margin-left: 100%;}
 
 
 /* -----------------------------------------
