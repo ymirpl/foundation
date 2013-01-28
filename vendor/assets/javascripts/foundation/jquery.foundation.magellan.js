@@ -26,11 +26,10 @@
 		var $destination = $(this),
       		$expedition = $destination.closest('[data-magellan-expedition]'),
 			activeClass = $expedition.attr('data-magellan-active-class') || options.activeClass;
-      $destination
-        .closest('[data-magellan-expedition]')
-        .find('[data-magellan-arrival]')
-        .not(this)
-        .removeClass(activeClass);
+      
+      $('[data-magellan-arrival]').each(function (idx) {
+      		$(this).removeClass(activeClass);
+      });
       $destination.addClass(activeClass);
     });
 
